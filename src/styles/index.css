@@ -1,12 +1,42 @@
+body {
+ 
+    background-image: url("https://img.freepik.com/free-vector/coloured-stains-pattern_1053-530.jpg?w=740&t=st=1699726131~exp=1699726731~hmac=72cc99aa7c0302f9a406cadd5ece96639918665e6d556bda84527a973fb3754e");
+   }
+.List__container{
+    display: flex;
+    margin: auto;
+   justify-content:center;
+    align-items:center;
+    align-content:flex-start;
+    flex-direction: column;
+   border:solid;
+   width: 400px;
+   height: 100vh;
+   background-color: #F91A81;
+   opacity: 90%;
+   border-radius: 10px;
+   color: yellow;
+   font-family: 'Poppins', sans-serif;
 
-/* 
+   
+}
+.List__container button{
+    border-radius: 5px;
+    border:none;
+    background-color: yellow;
+    color:rgb(85, 91, 255);
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 1px, rgb(31, 193, 27) 0px 0px 0px 2px, rgb(255, 217, 19) 0px 0px 0px 3px, rgb(255, 156, 85) 0px 0px 0px 4px, rgb(255, 85, 85) 0px 0px 0px 5px;
+    margin-left: 10px;
+}
+li{
+    margin-bottom: 20px;
+}
+ul{
+    margin-top: 10px;
+}
+input{
+    border-radius: 5px;
+    background-color: #9229FE;
+    color: yellow;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
